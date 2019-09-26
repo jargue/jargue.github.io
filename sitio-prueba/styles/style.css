@@ -1,0 +1,50 @@
+
+    /*solo un elemnto*/
+ /*   p {
+      color: red;
+      width: 500px;
+      border: 1px solid black;
+    }
+
+    /*mas de 2 elementos*/
+  /*  li,h1 {
+      color: purple;
+    }
+*/
+/*control pagina*/
+html {
+  font-size: 10px; /* px quiere decir 'pixels': la base del tamaño de fuente es ahora de 1o pixeles*/
+  font-family: "Times New Roman", Times, serif; /*Este debe ser el resto del resultado que obtuviste de Google fonts*/
+       background-color: #00539F;
+}
+/*oredenar el cuerpo o contenido*/
+body {
+  width: 600px;/*ancho*/
+  margin: 0 auto;/* el primer valor afectara los lados superior (top) e inferior (bottom) (en este caso haciéndolo en 0), y el segundo valor los lados izquierda (left) y derecha (right) (aquí, auto es un valor especial que divide el espacio disponible entre derecha e izquierda). */
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+  
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+    width: 510px; height: 510px;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
